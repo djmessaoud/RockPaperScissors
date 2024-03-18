@@ -1,0 +1,2 @@
+obj\Debug\net8.0/GameService.cs \
+obj\Debug\net8.0/GameServiceGrpc.cs: ../../RockPaperScissorsAPI/RockPaperScissorsAPI/GrpcServices/GameService.proto

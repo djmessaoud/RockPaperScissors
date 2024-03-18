@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "RockPaperScissorsAPI.Controllers.MatchesController",
+    "Method": "CreateMatch",
+    "RelativePath": "create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RockPaperScissorsAPI.Controllers.CreateMatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RockPaperScissorsAPI.Controllers.UsersController",
+    "Method": "TransferMoney",
+    "RelativePath": "transfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RockPaperScissorsAPI.Controllers.TransferMoneyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

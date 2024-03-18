@@ -1,0 +1,95 @@
+syntax = "proto3";
+
+option csharp_namespace = "RockPaperScissorsAPI.GrpcServices";
+
+package game;
+
+enum GameChoice {
+  Rock = 0;
+  Paper = 1;
+  Scissors = 2;
+}
+
+
+
+service GameService {
+  // rpc calls
+  rpc GetBalance (BalanceRequest) returns (BalanceReply) {}
+  rpc ListGames (ListGamesRequest) returns (ListGamesReply) {}
+  rpc JoinGame (JoinGameRequest) returns (JoinGameReply) {}
+  rpc MakeMove (MakeMoveRequest) returns (MakeMoveReply) {}
+  rpc CheckGameStatus (CheckGameStatusRequest) returns (CheckGameStatusReply) {}
+  rpc CheckGameResult(CheckGameResultRequest) returns (CheckGameResultReply) {}
+}
+
+// Balance 
+message BalanceRequest {
+  int32 userId = 1;
+}
+message BalanceReply {
+  double balance = 1;
+}
+
+// Game List 
+message ListGamesRequest {
+}
+
+message ListGamesReply {
+  repeated GameInfo games = 1;
+}
+
+// game information
+message GameInfo {
+  int32 gameId = 1;
+  double Stake = 2;
+  string status = 3; // e.g., "waiting", "full"
+}
+
+// Join Game
+message JoinGameRequest {
+  int32 userId = 1;
+  int32 gameId = 2;
+}
+message JoinGameReply {
+  bool success = 1;
+  string message = 2;
+}
+
+// Make Move
+message MakeMoveRequest {
+  int32 matchId = 1;
+  int32 userId = 2;
+  GameChoice choice = 3;
+}
+
+message MakeMoveReply {
+  bool success = 1;
+  string message = 2;
+}
+
+// Check Game Status
+message CheckGameStatusRequest {
+  int32 matchId = 1;
+}	
+
+message CheckGameStatusReply {
+  GameStates state = 1;
+}
+
+// Check game result
+message CheckGameResultRequest {
+  int32 matchId = 1;
+}
+
+message CheckGameResultReply {
+GameStates state = 1;
+string message = 2;
+}
+
+// Game States (for check statuses)
+ enum GameStates
+ {
+ WaitingForPlayer =0;
+ InProgress=1; 
+ Completed=2;
+ }
