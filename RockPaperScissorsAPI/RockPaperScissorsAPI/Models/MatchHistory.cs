@@ -22,8 +22,8 @@ namespace RockPaperScissorsAPI.Models
         public int? winnerId { get; set; }
         public decimal stake { get; set; }
         public DateTime timestamp { get; set; }
-        public GameChoice? PlayerOneChoice { get; set; }
-        public GameChoice? PlayerTwoChoice { get; set; }
+        public GameChoice? playerOneChoice { get; set; }
+        public GameChoice? playerTwoChoice { get; set; }
 
         public GameStates GameState { get; set; }
     }

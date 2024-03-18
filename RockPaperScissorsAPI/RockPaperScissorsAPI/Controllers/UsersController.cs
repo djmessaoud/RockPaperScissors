@@ -17,24 +17,24 @@ namespace RockPaperScissorsAPI.Controllers
         public async Task<IActionResult> TransferMoney([FromBody] TransferMoneyRequest request)
         {
             // поиск игроков в БД по ID 
-            var fromUser = await _context.users.FindAsync(request.FromUserId);
-            var toUser = await _context.users.FindAsync(request.ToUserId);
+            var fromUser = await _context.users.FindAsync(request.fromUserId);
+            var toUser = await _context.users.FindAsync(request.toUserID);
             // если игрок не найден, то возвращаем 404
             if (fromUser == null || toUser == null) return NotFound("игрок не найден");
             // если у игрока недостаточно средств, то возвращаем 400 и сообщение
-            if (fromUser.balance < request.Amount)
+            if (fromUser.balance < request.amount)
             {
                 return BadRequest("Недостаточно средств.");
             }
             // перевод денег между игроками если все условия выполнены
-            fromUser.balance -= request.Amount;
-            toUser.balance += request.Amount;
+            fromUser.balance -= request.amount;
+            toUser.balance += request.amount;
             // обект транзакции для записи в БД
             var transaction = new GameTransactions
             {
-                fromUserId = request.FromUserId,
-                toUserId = request.ToUserId,
-                amount = request.Amount,
+                fromUserId = request.fromUserId,
+                toUserId = request.toUserID,
+                amount = request.amount,
                 timestamp = DateTime.UtcNow
             };
             // добавление транзакции в БД
@@ -48,9 +48,9 @@ namespace RockPaperScissorsAPI.Controllers
     public class TransferMoneyRequest
     {
         
-        public int FromUserId { get; set; }
-        public int ToUserId { get; set; }
-        public decimal Amount { get; set; }
+        public int fromUserId { get; set; }
+        public int toUserID { get; set; }
+        public decimal amount { get; set; }
     }
 }
 

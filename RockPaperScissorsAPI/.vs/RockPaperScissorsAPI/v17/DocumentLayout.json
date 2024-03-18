@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\grpcservices\\gameserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\grpcservices\\gameserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +19,24 @@
       "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\models\\matchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\models\\matchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\grpcservices\\gameservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\grpcservices\\gameservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\grpcservices\\gameserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\grpcservices\\gameserviceimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\models\\gametransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\models\\gametransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\models\\matchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\models\\matchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\controllers\\matchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|solutionrelative:rockpaperscissorsapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0686F4C9-6FBD-4089-8766-45B988D1A72A}|RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj|c:\\users\\omen\\source\\repos\\rockpaperscissorsapi\\rockpaperscissorsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -72,40 +72,40 @@
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\GrpcServices\\GameService.proto",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\GrpcServices\\GameService.proto",
               "RelativeToolTip": "RockPaperScissorsAPI\\GrpcServices\\GameService.proto",
-              "ViewState": "AQIAADEAAAAAAAAAAAAlwBsAAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAlwCgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2024-03-16T16:14:29.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "GameServiceImplementation.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\GrpcServices\\GameServiceImplementation.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\GrpcServices\\GameServiceImplementation.cs",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\GrpcServices\\GameServiceImplementation.cs",
               "RelativeToolTip": "RockPaperScissorsAPI\\GrpcServices\\GameServiceImplementation.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAuwMsAAAB8AAAA",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAmwKYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T16:17:39.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "RockPaperScissorsAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAzAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T14:54:18.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GameTransactions.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Models\\GameTransactions.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Models\\GameTransactions.cs",
@@ -118,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Program.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Program.cs",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Program.cs",
               "RelativeToolTip": "RockPaperScissorsAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAVAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T12:30:55.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Data\\ApplicationDbContext.cs",
@@ -144,13 +144,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MatchesController.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Controllers\\MatchesController.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Controllers\\MatchesController.cs",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Controllers\\MatchesController.cs",
               "RelativeToolTip": "RockPaperScissorsAPI\\Controllers\\MatchesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T15:02:59.302Z",
               "EditorCaption": ""
@@ -165,25 +165,24 @@
               "RelativeToolTip": "RockPaperScissorsAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-17T16:38:49.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T16:38:49.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MatchHistory.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Models\\MatchHistory.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Models\\MatchHistory.cs",
               "ToolTip": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Models\\MatchHistory.cs",
               "RelativeToolTip": "RockPaperScissorsAPI\\Models\\MatchHistory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T14:48:29.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\OMEN\\source\\repos\\RockPaperScissorsAPI\\RockPaperScissorsAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "RockPaperScissorsAPI\\Models\\User.cs",
@@ -204,8 +203,7 @@
               "RelativeToolTip": "RockPaperScissorsAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-16T14:50:00.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T14:50:00.613Z"
             },
             {
               "$type": "Document",
@@ -217,8 +215,7 @@
               "RelativeToolTip": "RockPaperScissorsAPI\\RockPaperScissorsAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-16T14:41:34.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T14:41:34.75Z"
             },
             {
               "$type": "Document",

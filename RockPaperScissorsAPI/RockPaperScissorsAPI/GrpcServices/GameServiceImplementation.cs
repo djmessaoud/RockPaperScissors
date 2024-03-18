@@ -93,11 +93,11 @@ namespace RockPaperScissorsAPI.GrpcServices
             // создание хода для игрока
             if (request.UserId == match.playerOneId)
             {
-                match.PlayerOneChoice = (MatchHistory.GameChoice)request.Choice;
+                match.playerOneChoice = (MatchHistory.GameChoice)request.Choice;
             }
             else if (request.UserId == match.playerTwoId)
             {
-                match.PlayerTwoChoice = (MatchHistory.GameChoice)request.Choice;
+                match.playerTwoChoice = (MatchHistory.GameChoice)request.Choice;
             }
             else // если игрок не участвует в матче, то возвращаем сообщение об ошибке
             { 
@@ -105,7 +105,7 @@ namespace RockPaperScissorsAPI.GrpcServices
             }
 
             // если оба игрока сделали ход, то решаем игру
-            if (match.PlayerOneChoice.HasValue && match.PlayerTwoChoice.HasValue)
+            if (match.playerOneChoice.HasValue && match.playerTwoChoice.HasValue)
             {
                 ResolveGame(match); // решение игры
                 match.GameState = MatchHistory.GameStates.Completed; // меняем статус матча на "completed"
@@ -121,28 +121,28 @@ namespace RockPaperScissorsAPI.GrpcServices
         private MatchHistory ResolveGame(MatchHistory game)
         {
             // если игроки не сделали ход, то возвращаем сообщение об ошибке
-            if (game.PlayerOneChoice == null || game.PlayerTwoChoice == null)
+            if (game.playerOneChoice == null || game.playerTwoChoice == null)
             {
                 throw new InvalidOperationException("Невозможно разрешить игру без выбора обоих игроков.");
             }
             // если игроки выбрали одинаковые ходы то ничья
-            if (game.PlayerOneChoice == game.PlayerTwoChoice)
+            if (game.playerOneChoice == game.playerTwoChoice)
             {
                 game.winnerId = 0;
             }
             // если игроки выбрали разные ходы, то определяем победителя
-            else if ((game.PlayerOneChoice == MatchHistory.GameChoice.Rock && game.PlayerTwoChoice == MatchHistory.GameChoice.Scissors) ||
-                     (game.PlayerOneChoice == MatchHistory.GameChoice.Scissors && game.PlayerTwoChoice == MatchHistory.GameChoice.Paper) ||
-                     (game.PlayerOneChoice == MatchHistory.GameChoice.Paper && game.PlayerTwoChoice == MatchHistory.GameChoice.Rock))
+            else if ((game.playerOneChoice == MatchHistory.GameChoice.Rock && game.playerTwoChoice == MatchHistory.GameChoice.Scissors) ||
+                     (game.playerOneChoice == MatchHistory.GameChoice.Scissors && game.playerTwoChoice == MatchHistory.GameChoice.Paper) ||
+                     (game.playerOneChoice == MatchHistory.GameChoice.Paper && game.playerTwoChoice == MatchHistory.GameChoice.Rock))
             {
                // первый игрок победил
                 game.winnerId = game.playerOneId;
                 // перевод денег от второго игрока к первому
                 var transferRequest = new TransferMoneyRequest
                 {
-                    FromUserId = game.playerTwoId.Value,
-                    ToUserId = (int)game.playerOneId,
-                    Amount = game.stake
+                    fromUserId = game.playerTwoId.Value,
+                    toUserID = (int)game.playerOneId,
+                    amount = game.stake
                 };
                 var result = new UsersController(_context).TransferMoney(transferRequest).Result;
                 Console.WriteLine(result);
@@ -154,9 +154,9 @@ namespace RockPaperScissorsAPI.GrpcServices
                 // перевод денег от первого игрока ко второму
                 var transferRequest = new TransferMoneyRequest
                 {
-                    FromUserId = (int)game.playerOneId,
-                    ToUserId = game.playerTwoId.Value,
-                    Amount = game.stake
+                    fromUserId = (int)game.playerOneId,
+                    toUserID = game.playerTwoId.Value,
+                    amount = game.stake
                 };
                 var result = new UsersController(_context).TransferMoney(transferRequest).Result;
                 Console.WriteLine(result);

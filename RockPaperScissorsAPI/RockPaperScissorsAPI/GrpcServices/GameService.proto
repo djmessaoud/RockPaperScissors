@@ -38,11 +38,11 @@ message ListGamesReply {
   repeated GameInfo games = 1;
 }
 
-// game information
+// game information 
 message GameInfo {
   int32 gameId = 1;
   double Stake = 2;
-  string status = 3; // e.g., "waiting", "full"
+  string status = 3; 
 }
 
 // Join Game

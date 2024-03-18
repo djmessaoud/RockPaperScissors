@@ -75,8 +75,8 @@ CREATE TABLE public.matchhistory (
     "winnerId" integer,
     stake numeric(10,2) NOT NULL,
     "timestamp" timestamp without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "PlayerOneChoice" integer,
-    "PlayerTwoChoice" integer,
+    "playerOneChoice" integer,
+    "playerTwoChoice" integer,
     "GameState" integer
 );
 

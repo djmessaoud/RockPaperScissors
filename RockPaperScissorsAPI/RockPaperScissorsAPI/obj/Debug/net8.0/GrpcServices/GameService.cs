@@ -811,7 +811,7 @@ namespace RockPaperScissorsAPI.GrpcServices {
   }
 
   /// <summary>
-  /// game information
+  /// game information 
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GameInfo : pb::IMessage<GameInfo>
@@ -887,9 +887,6 @@ namespace RockPaperScissorsAPI.GrpcServices {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 3;
     private string status_ = "";
-    /// <summary>
-    /// e.g., "waiting", "full"
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Status {
